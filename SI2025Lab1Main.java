@@ -63,9 +63,11 @@ class TaskManager {
     // MISSING FEATURES:
 
     // 1. Remove a task by name
-    public void removeTask(String name) {
-        // TODO: Implement removal logic
-    }
+
+   public void removeTaskByName(String taskName) {
+    tasks.removeIf(task -> task.getName().equalsIgnoreCase(taskName));
+}
+
 
     // 2. Find all completed tasks
     public List<Task> getCompletedTasks() {
@@ -114,10 +116,16 @@ class TaskManager {
     }
 
     // 9. Mark all tasks in a category as completed
-    public void markCategoryCompleted(String category) {
-        // TODO: Implement bulk completion logic
-    }
-}
+
+	public void markCategoryCompleted(String category) {
+    for (Task task : tasks) {
+        if (task.getCategory().equalsIgnoreCase(category)) {
+            task.setCompleted(true); // Mark task as completed
+        		}
+    		}
+	}
+
+   }
 
 public class SI2025Lab1Main {
     public static void main(String[] args) {

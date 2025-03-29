@@ -63,9 +63,11 @@ class TaskManager {
     // MISSING FEATURES:
 
     // 1. Remove a task by name
-    public void removeTask(String name) {
-        // TODO: Implement removal logic
-    }
+
+   public void removeTaskByName(String taskName) {
+    tasks.removeIf(task -> task.getName().equalsIgnoreCase(taskName));
+}
+
 
     // 2. Find all completed tasks
     public List<Task> getCompletedTasks() {

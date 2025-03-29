@@ -1,0 +1,32 @@
+13. git fetch origin (Gi prevzemam novite grankki od GitHub)
+
+14. git checkout 1-remove-a-task-by-name (Se prefrlam na grankata za prviot issue)
+
+15. Ja implementiram baranata funkcija
+
+16. git add . (Gi dodavam izemnite) & git commit -m "Implement removeTaskByName method" (Pravam commit)
+
+17. git push origin 1-remove-a-task-by-name (Ja sinhroniziram lokalnata granka so grankata na remote repository)
+
+18. Kreiram pull request 
+
+19. Povtoruvanje na cekorite 14-18 za preostanatite dva issues
+
+20. Gi odobruvam dva od trite pull requests i gi spojuvam so master grankata (Ne se slucija nikakvi konflikti)
+
+21. Dvata issues sto gi spojiv avtomatski se dodadeni vo fazata Done
+
+22. git checkout master (Se prefrlam na grankata master)
+git merge 7-count-tasks-per-category (Gi spojuvam dvete granki lokalno)
+git add . (Gi dodavam izmenite)
+git commit -m "Merge method countTasksPerCategory with master" (Pravam commit)
+
+23. git push origin master (Ja sinhroniziram lokalnata granka so grankata na remote repository)
+
+24. Pull request-ot avtomatski se zatvori za taa granka i vo GitHub proektot posledinot issue se premesti vo fazata Done
+
+25. git add logs.txt 233278.txt (Gi dodavam poslednite files) & git commit -m "Final commit" (Pravam posleden commit) &
+    git push origin master (Ja sinhroniziram lokalnata granka so grankata na remote repository)
+
+
+

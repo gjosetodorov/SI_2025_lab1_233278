@@ -1,0 +1,16 @@
+PS C:\Users\todor\OneDrive\Desktop\FINKI\SI_2025_lab1_233278> git log --oneline --graph --all
+*   ce84e25 (HEAD -> master, origin/master, origin/HEAD) Merge method countTasksPerCategory with master
+|\
+| *   7816d46 Merge pull request from gjosetodorov/9-mark-all-tasks-in-a-category-as-completed
+| |\
+| | * 8fff9f8 (origin/9-mark-all-tasks-in-a-category-as-completed, 9-mark-all-tasks-in-a-category-as-completed) Implement markCategoryCompleted method
+| * |   db60c0e Merge pull request from gjosetodorov/1-remove-a-task-by-name
+| |\ \
+| | |/
+| |/|
+| | * 8fcb261 (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) Implement removeTaskByName method
+| |/
+* / dc1c7a4 (origin/7-count-tasks-per-category, 7-count-tasks-per-category) Implement countTasksPerCategory method
+|/
+* 41c13f2 Add starter code
+* 0a2e18c Initial commit
